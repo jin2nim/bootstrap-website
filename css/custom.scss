@@ -1,0 +1,49 @@
+// Override primary color
+$primary: #23a6f0;
+$dark: #252b42;
+$success: #2dc071;
+$muted: #bdbdbd !default;
+$alert: #e77c40 !default;
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-muted {
+  background-color: $muted;
+}
+
+.border-muted {
+  border: $muted;
+}
+
+.bg-alert {
+  background-color: $alert;
+}
+
+@media (max-width: 768px) {
+  .bg-md-dark {
+    background-color: $dark;
+  }
+  .touch svg path {
+    fill: $primary;
+  }
+  .responsive-text {
+    color: white;
+  }
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
