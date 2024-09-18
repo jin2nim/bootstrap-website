@@ -35,14 +35,8 @@ $alert: #e77c40 !default;
 }
 
 @media (max-width: 768px) {
-  .bg-md-dark {
-    background-color: $dark;
-  }
   .touch svg path {
     fill: $primary;
-  }
-  .responsive-text {
-    color: white;
   }
 }
 
