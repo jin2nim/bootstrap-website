@@ -11,14 +11,6 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
-header {
-
-  background-image: url('../img/background.jpg'); 
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  color: white; 
-}
 
 .user-img { 
   top: -3rem; 
@@ -39,6 +31,14 @@ p {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+header {
+
+  background-image: url('../img/background.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white; 
 }
 
 * {
